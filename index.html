@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="text-center font-serif text-4xl mt-6">Color Flipper</h1>
+    <br><br><br>
+    
+    <div class="flex justify-center mt-12">
+      <div class="w-28 mx-auto bg-transparent p-4 rounded-lg text-center">
+    <button class="rounded-md border-2 border-gray-600 border-collapse mx-3 px-3 bg-green-500 font-medium text-xl text-white" onclick="setColor('Green')">Green </button>
+    <button class="rounded-md border-2 border-gray-600 border-collapse mx-3 px-3  bg-red-600 text-white font-medium text-xl" onclick="setColor('Red')">Red</button>
+    <button class="rounded-md border-2 border-gray-600 border-collapse mx-3 px-3  bg-blue-500 font-medium text-xl text-white" onclick="setColor('Blue')">Blue</button>
+    <button class="rounded-md border-2 border-gray-600 border-collapse mx-3 px-3  bg-gradient-to-r from-purple-500 to-pink-500 font-medium text-xl text-white" onclick="randomColor()">Random</button>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
